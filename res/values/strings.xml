@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">Relaxing Lullaby Pro</string>
+
+    <string-array name="catagories">
+        <item>Birdsong</item>
+        <item>Nature</item>
+        <item>Animals</item>
+        <item>Noise</item>
+    </string-array>
+     <string-array name="birdsong">
+         <item>Birdsong</item>
+         <item>Loons</item>
+         <item>Lakeside Loons</item>
+         <item>Rainy Loons</item>
+          <item>Rainy Lakeside Loons</item>
+          <item>Loons (no ducks)</item>
+         <item>Lakeside Loons (no ducks)</item>
+         <item>Rainy Loons (no ducks)</item>
+          <item>Rainy Lakeside Loons (no ducks)</item>
+        <item>Windy Birdsong</item>
+        <item>River Birdsong</item>
+        <item>Rain Birdsong</item>
+        <item>Birdsong (no crows)</item>
+        <item>Windy Birdsong (no crows)</item>
+        <item>River Birdsong (no crows)</item>
+        <item>Rain Birdsong (no crows)</item>
+        </string-array>  
+    <string-array name="nature">
+        <item>Waves</item>
+         <item>Lakeside</item>
+        <item>Breakers</item>
+        <item>Wind in trees</item> 
+        <item>Bubbly River</item>
+        <item>Soft Rain</item>
+        <item>Heavy Rain</item>
+        <item>Roaring Fire</item>
+        <item>Gentle Fire</item>
+    </string-array>
+    <string-array name="farm">
+        <item>Flock</item>
+        <item>Windy Flock</item>
+        <item>River Flock </item>
+        <item>Rain Flock</item>
+        <item>Pigs</item>
+        <item>Farmyard</item>
+        <item>Windy Farmyard</item>
+        <item>Rainy Farmyard</item>
+        <item>River Farmyard</item>
+    </string-array>
+    
+    <string-array name="noise">
+        <item>Brown Noise</item>
+        <item>Blue Noise</item>
+        <item>Pink Noise</item>
+        <item>Violet Noise</item>
+        <item>White Noise</item>
+    </string-array>
+  
+
+    <string name="stopbuttontext">Stop</string>
+    <string name="startbuttontext">Start</string>
+    <string name="soundscape">Soundscape</string>
+    <string name="catagory">Category</string>
+    <string name="volume">Soundscape Volume</string>
+    <string name="defaultvolume">50</string>
+    <string name="medialVolume">Media Volume</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">About</string>
+    <string name="buttonAlarmPickerTitle">Set Alarm</string>
+    <string name="buttonFadePickerTitle">Set Fade Out</string>
+    <string name="help_text">Lullabye Help\n
+            \n
+            Main Screen \n
+            \n
+            Start Fade\n
+            This will start a countdown, once the countdown is complete, 
+            Lullabye will slowly fade out and stop the soundscape. 
+            You can set how long the countdown is from the options screen. The default countdown is one hour.\n
+            \n
+            Media Volume\n
+            This slider sets the volume for all media
+            played on your phone, ringtone volume
+            is unaffected.\n
+            \n
+            Soundscape Volume\n
+            This sets the volume of the Lullabye app only, and provides 
+            much more fine control, allowing Lullabye to play at very low volumes without
+            the sound cutting out.\n
+            \n
+            Category\n
+            Lullabye has many soundscapes, to help make them more accessible, they
+            are grouped together with other similar soundscapes. If the category list is too long
+            to fit on the screen there will be a scroll bar on the right of the list
+            allowing you to see all categories. Picking a new category will stop any 
+            soundscape currently playing\n
+            \n
+            Soundscape\n
+            This allows you to select the individual soundscape you wish to listen to.
+            As with the category list, the soundcape list will be scrollable if
+            it is too long to fit on screen. Picking a new soundscape will stop any 
+            soundscape currently playing\n
+            \n
+            Start Button\n
+            Starts the selected soundscape playing. Since many soundscapes have silences, 
+          	A play icon will be displayed when a soundscape is active, just in case there 
+          	is a long pause at the beginning of the soundscape and it is not clear if it
+          	is running.\n
+          	\n
+          	Stop Button\n
+          	Stops the currently active soundscape playing.\n
+          	\n
+          	\n
+          	Options Screen\n
+          	\n
+          	Play In Background\n
+          	This sets Lullabye so it will continue to play soundscapes
+          	when the Lullabye screen is not visible. You will need to 
+          	set this option if your phone has and automatic screen lock,
+          	or if you wish to use another app while listening to Lullabye.\n
+          	\n
+          	Lifeform  activity\n
+          	This sets the frequency of animal sounds in applicable soundscapes.
+          	Moving the slider fully to the left will make animal sounds play continuously,
+          	moving to it fully right will make twice as infrequently as default. The minimum 
+          	setting for the slider is locked at 1/10 of a second, things get very odd at faster speeds.
+          	Please note changes in this slider will not be heard until you return to the main screen\n 	   	
+          \n
+          Set Fade Out\n
+          This allows you to set the countdown duration to your preferred time. 
+          Once the time is set the, fade can be activated from the main screen. 
+          Pick the desired time from the Hour/Minute dialog shown after pressing the \'Set Fade Out\' button.
+          The longest countdown possible is 24 hours \n
+          \n
+          Hardware controls.\n
+          \n
+          Volume Buttons:Media Volume.\n
+          \n
+          Home Button:Return to Home, leave Lullabye Running.\n
+          \n
+          Back Button:Hard close app.\n</string>
+    <string name="helpCloseButtonText">Close</string>
+    <string name="about_text">            About Lullabye.\n
+            Relaxing Lullaby© 2012-2014 Richard Beech. All rights reserved.\n\n
+            Version 2.0\n
+            \n
+            Unless required by applicable law or agreed to in writing,
+             This Work is provided on an AS IS BASIS, WITHOUT WARRANTIES OR
+              CONDITIONS OF ANY KIND, either express or implied, including,
+               without limitation, any warranties or conditions of TITLE, 
+               NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR 
+               PURPOSE. You are solely responsible for determining the 
+               appropriateness of using or redistributing the 
+               Work and assume any risks associated with 
+               Your exercise of permissions under this License.</string>
+    <string name="textViewLifeformActivityTitle">Lifeform Activity</string>
+    <string name="checkBoxPlayInBackgroundTitle">Play In Background</string>
+    <string name="whats_new">What\'s New in Version 2.0\n
+        Major code updates for Android 2.3 and later versions.\n
+        Decrased CPU usage for better battery life.\n
+        Fixed Soundscape volume not loading preferance on Android 2.3.1\n
+        Fixed Google Ad not displaying due to SDK update.\n
+        Re-engineered sound generator to ease creating new soundscapes.\n
+       Version 1.7\n 
+        2 new fire soundscapes.\n
+        Removed river soundscape, its was not up to the quality of other soundscapes.\n
+        Cleaned up many sounds to remove background noise.\n
+        Improved timing on Nature soundscape generator, this has considerably improved the audio quality.\n 
+        Version 1.6 \n
+	Compatible with Android 1.6+ thousands of new devices supported.\n
+	Version 1.5\n
+       Interface French and Mandarin language support (activated when the appropriate Android system language is set).\n
+       Total rework of load process to improve load times and app stability.\n
+       Total Rework of interface logic to remove English language dependency and improve response to user input.\n
+        Improved remote error reporting.\n
+       Version1.4\n
+       \n
+       9 new Loon and lakeside soundscapes
+     
+                        \n
+</string>
+    <string name="version">2.0 Pro</string>
+    <string name="textViewFadeOut">No fade time set yet.</string>
+    <string name="checkBoxRepeatAlarmTitle">Repeat Alarm</string>
+    <string name="textviewalarm">No alarm time set yet.</string>
+    <string name="fadeOutText">"Fade out in "</string>
+    <string name="startFadeText">Start Fade in</string>
+    <string name="loadMessage">Please wait, loading sounds.</string>
+<string-array name="Sounds"> 
+<!--     sheep -->
+<item>0,sheep01</item>
+		<item>1,sheep02</item>
+		<item>2,sheep03</item>
+		<item>3,sheep04</item>
+		<item>4,sheep05</item>
+		<item>5,sheep06</item>
+		<item>6,sheep07</item>
+		<item>7,sheep08</item>
+		<item>8,sheep09</item>
+		<item>9,sheep10</item>
+<!-- 		odds n sods -->
+		<item>10,cuckoo01</item>
+		<item>11,cuckoo02</item>
+		<item>12,cow01</item>
+		<item>13,cow02</item>
+		<item>14,dog01</item>
+		<item>15,dog02</item>
+		<item>16,duck01</item>
+		<item>17,duck02</item>
+		<item>18,duck03</item>
+<!-- 		lake sounds -->
+		<item>40,lakewaves01</item>
+		<item>41,lakewaves02</item>
+		<item>42,lakewaves03</item>
+		<item>43,lakewaves04</item>
+		<item>44,lakewaves05</item>
+		<item>45,lakewaves06</item>
+		<item>46,lakewaves07</item>
+		<item>47,lakewaves08</item>
+		<item>48,lakewaves09</item>
+		<item>49,lakewaves10</item>
+<!-- 		 looped sounds -->
+		<item>100,wind01</item>
+		<item>20,bluenoise</item>
+		<item>21,brownnoise</item>
+		<item>22,pinknoise</item>
+		<item>23,violetnoise</item>
+		<item>24,whitenoise</item>
+<!-- 		nightingale -->
+		<item>30,nightingale01</item>
+		<item>31,nightingale02</item>
+		<item>32,nightingale03</item>
+		<item>33,nightingale04</item>
+		<item>34,nightingale05</item>
+		<item>35,nightingale06</item>
+		<item>36,nightingale07</item>
+		<item>37,nightingale08</item>
+		<item>38,nightingale09</item>
+		<item>39,nightingale10</item>
+
+<!-- 		thrush -->
+		<item>50,thrush01</item>
+		<item>51,thrush02</item>
+		<item>52,thrush03</item>
+		<item>53,thrush04</item>
+		<item>54,thrush05</item>
+		<item>55,thrush06</item>
+		<item>56,thrush07</item>
+		<item>57,thrush08</item>
+		<item>58,thrush09</item>
+		<item>59,thrush10</item>
+<!-- 		loon -->
+		<item>60,loons01</item>
+		<item>61,loons02</item>
+		<item>62,loons03</item>
+		<item>63,loons04</item>
+		<item>64,loons05</item>
+		<item>65,loons06</item>
+		<item>66,loons07</item>
+		<item>67,loons08</item>
+		<item>68,loons09</item>
+		<item>69,loons10</item>
+
+<!-- 		 crow -->
+		<item>70,crow01</item>
+		<item>71,crow02</item>
+		<item>72,crow03</item>
+		<item>73,crow04</item>
+		<item>74,crow05</item>
+		<item>75,crow06</item>
+		<item>76,crow07</item>
+		<item>77,crow08</item>
+		<item>78,crow09</item>
+		<item>79,crow10</item>
+<!-- roaring fire -->
+<item>80,roarfire01</item>
+<item>81,roarfire02</item>
+<item>82,roarfire03</item>
+<item>83,roarfire04</item>
+<item>84,roarfire05</item>
+<item>85,roarfire06</item>
+<item>86,roarfire07</item>
+<item>87,roarfire08</item>
+<!-- roaring fire -->
+<item>90,softfire01</item>
+<item>91,softfire02</item>
+<item>92,softfire03</item>
+<item>93,softfire04</item>
+<item>94,softfire05</item>
+<item>95,softfire06</item>
+<item>96,softfire07</item>
+<item>97,softfire08</item>
+<item>98,softfire07</item>
+<item>99,softfire09</item>
+<!-- 		treewind -->
+		<item>220,treewind01</item>
+		<item>221,treewind02</item>
+		<item>222,treewind03</item>
+		<item>223,treewind04</item>
+		<item>224,treewind05</item>
+		<item>225,treewind06</item>
+		<item>226,treewind07</item>
+		<item>227,treewind08</item>
+		<item>228,treewind09</item>
+		<item>229,treewind10</item>
+
+<!-- 		bubbly river -->
+		<item>240,riverbubbly01</item>
+		<item>241,riverbubbly02</item>
+		<item>242,riverbubbly03</item>
+		<item>243,riverbubbly04</item>
+		<item>244,riverbubbly05</item>
+		<item>245,riverbubbly06</item>
+		<item>246,riverbubbly07</item>
+		<item>247,riverbubbly08</item>
+		<item>248,riverbubbly09</item>
+		<item>249,riverbubbly10</item>
+
+<!-- 		soft rain -->
+		<item>250,softrain01</item>
+		<item>251,softrain02</item>
+		<item>252,softrain03</item>
+		<item>253,softrain04</item>
+		<item>254,softrain05</item>
+		<item>255,softrain06</item>
+		<item>256,softrain07</item>
+		<item>257,softrain08</item>
+		<item>258,softrain09</item>
+		<item>259,softrain10</item>
+
+<!-- 	 waves -->
+		<item>260,waves01</item>
+		<item>261,waves02</item>
+		<item>262,waves03</item>
+		<item>263,waves04</item>
+		<item>264,waves05</item>
+		<item>265,waves06</item>
+		<item>266,waves07</item>
+		<item>267,waves08</item>
+		<item>268,waves09</item>
+		<item>269,waves10</item>
+<!-- 		pigs -->
+
+		<item>270,pigs01</item>
+		<item>271,pigs02</item>
+		<item>272,pigs03</item>
+		<item>273,pigs04</item>
+		<item>274,pigs05</item>
+		<item>275,pigs06</item>
+		<item>276,pigs07</item>
+		<item>277,pigs08</item>
+		<item>278,pigs09</item>
+		<item>279,pigs10</item>
+</string-array>
+		<string name="load_content_desc">The Lullaby title screen, please wait for sounds to load</string>
+		<string name="cancelFadeText">Cancel Fade</string>
+		<string name="alarmText">Alarm</string>
+	
+</resources>

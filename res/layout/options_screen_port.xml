@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/scrollerview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonOptionsClose"
+        android:background="@drawable/soundactivitybgmain"
+        android:orientation="vertical"
+        android:padding="6dp" >
+
+        <RelativeLayout
+            android:id="@+id/playbackgroundpanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bar" >
+
+            <CheckBox
+                android:id="@+id/checkBoxPlayInBackground"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:text="@string/checkBoxPlayInBackgroundTitle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lifeformpanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/playbackgroundpanel"
+            android:background="@drawable/bar"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/textViewLifeformActivityTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/textViewLifeformActivityTitle" />
+
+            <SeekBar
+                android:id="@+id/seekBarLifeformActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewLifeformActivityTitle"
+                android:max="10000"
+                android:progress="6000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/repeatalarmpanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/alarmpanel"
+            android:background="@drawable/bar"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <CheckBox
+                android:id="@+id/checkBoxRepeatAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:text="@string/checkBoxRepeatAlarmTitle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fadeoutpanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lifeformpanel"
+            android:background="@drawable/bar" >
+
+            <Button
+                android:id="@+id/timepickerbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/buttonFadePickerTitle" />
+
+            <TextView
+                android:id="@+id/textViewFadeOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/textViewFadeOut"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/alarmpanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fadeoutpanel"
+            android:background="@drawable/bar"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/textViewAlarmTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/textviewalarm"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/alarmpickerbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/buttonAlarmPickerTitle" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/AdLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonOptionsClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AdLayout1"
+        android:layout_alignParentRight="true"
+        android:text="@string/helpCloseButtonText" />
+
+</RelativeLayout>
